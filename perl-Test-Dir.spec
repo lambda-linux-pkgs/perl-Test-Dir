@@ -56,6 +56,11 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Sun Dec 28 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 1.014-8
+- Adapt for AL/LL
+- Add package support URL
+- Import source package FC21/perl-Test-Dir-1.014-8.fc21
+
 * Sat Jun 07 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.014-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_21_Mass_Rebuild
 

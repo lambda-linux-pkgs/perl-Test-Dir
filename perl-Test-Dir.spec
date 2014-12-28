@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:           perl-Test-Dir
 Version:        1.014
-Release:        8%{?dist}
+Release:        8%{?_buildid}%{?dist}
 Summary:        Some simple tests on directories and folders
 License:        GPL+ or Artistic
 Group:          Development/Libraries

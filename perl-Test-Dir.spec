@@ -23,6 +23,9 @@ BuildRequires:  perl(Test::Pod::Coverage) >= 1.08
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 This modules provides a collection of test utilities for directory and folder
 attributes. Use it in combination with Test::More in your test programs.
 
